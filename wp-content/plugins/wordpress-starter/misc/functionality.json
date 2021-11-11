@@ -1,0 +1,173 @@
+{
+	"special_offers": [],
+	"active_plugins":[
+		{
+			"plugin_name": "woocommerce/woocommerce.php",
+			"title": "Check Orders",
+			"icon": {
+				"file": "/assets/img/woo.png",
+				"width": 54,
+				"height": 40
+			},
+			"link": "edit.php?post_type=shop_order",
+			"button_text" : "Manage",
+			"button_style" : "button--outlined"
+		},
+		{
+			"plugin_name": "woocommerce/woocommerce.php",
+			"title": "Create & Edit Products",
+			"icon": {
+				"file": "/assets/img/woo.png",
+				"width": 54,
+				"height": 40
+			},
+			"link": "edit.php?post_type=product",
+			"button_text" : "Manage",
+			"button_style" : "button--outlined"
+		},
+		{
+			"plugin_name": "the-events-calendar/the-events-calendar.php",
+			"title": "Create & Edit Events",
+			"icon": {
+				"file": "/assets/img/events.png",
+				"width": 40,
+				"height": 40
+			},
+			"link": "edit.php?post_type=tribe_events",
+			"button_text" : "Manage",
+			"button_style" : "button--outlined"
+		},
+		{
+			"plugin_name": "wp-google-maps/wpGoogleMaps.php",
+			"title": "Create Maps",
+			"icon": {
+				"file": "/assets/img/wpmaps.png",
+				"width": 40,
+				"height": 40
+			},
+			"link": "admin.php?page=wp-google-maps-menu&override=1",
+			"button_text" : "Manage",
+			"button_style" : "button--outlined"
+		},
+		{
+			"plugin_name": "foogallery/foogallery.php",
+			"title": "Build Galleries",
+			"icon": {
+				"file": "/assets/img/foo.png",
+				"width": 40,
+				"height": 40
+			},
+			"link": "edit.php?post_type=foogallery&page=foogallery",
+			"button_text" : "Manage",
+			"button_style" : "button--outlined"
+		},
+		{
+			"plugin_name": "wordpress-seo/wp-seo.php",
+			"title": "Check your SEO",
+			"icon": {
+				"file": "/assets/img/yoast.png",
+				"width": 33,
+				"height": 40
+			},
+			"link": "admin.php?page=wpseo_dashboard",
+			"button_text" : "Manage",
+			"button_style" : "button--outlined"
+		},
+		{
+			"plugin_name": "google-analytics-for-wordpress/googleanalytics.php",
+			"title": "Configure Google Analytics",
+			"icon": {
+				"file": "/assets/img/monsterinsights.png",
+				"width": 41,
+				"height": 40
+			},
+			"link": "admin.php?page=monsterinsights_settings",
+			"button_text" : "Manage",
+			"button_style" : "button--outlined"
+		},
+		{
+			"plugin_name": "optinmonster/optin-monster-wp-api.php",
+			"title": "Your Subscription List",
+			"icon": {
+				"file": "/assets/img/optinmonster.png",
+				"width": 47,
+				"height": 40
+			},
+			"link": "admin.php?page=optin-monster-api-settings",
+			"button_text" : "Manage",
+			"button_style" : "button--outlined"
+		},
+		{
+			"plugin_name": "wpforms-lite/wpforms.php",
+			"title": "Create & Edit Forms",
+			"icon": {
+				"file": "/assets/img/wpforms.png",
+				"width": 52,
+				"height": 40
+			},
+			"link": "admin.php?page=wpforms-overview",
+			"button_text" : "Manage",
+			"button_style" : "button--outlined"
+		},
+		{
+			"plugin_name": "envira-gallery-lite/envira-gallery-lite.php",
+			"title": "Organize your Photos & Videos",
+			"icon": {
+				"file": "/assets/img/envira.png",
+				"width": 40,
+				"height": 40
+			},
+			"link": "edit.php?post_type=envira",
+			"button_text" : "Manage",
+			"button_style" : "button--outlined"
+		},
+		{
+			"plugin_name": "leadin/leadin.php",
+			"title": "Manage your Contacts",
+			"icon": {
+				"file": "/assets/img/hubspot.png",
+				"width": 40,
+				"height": 40
+			},
+			"link": "admin.php?page=leadin",
+			"button_text" : "Manage",
+			"button_style" : "button--outlined"
+		},
+		{
+			"plugin_name": "translatepress-multilingual/index.php",
+			"title": "Translate Your Website",
+			"icon": {
+				"file": "/assets/img/translatepress.png",
+				"width": 47,
+				"height": 40
+			},
+			"link": "options-general.php?page=translate-press",
+			"button_text" : "Manage",
+			"button_style" : "button--outlined"
+		},
+		{
+			"plugin_name": "all-in-one-seo-pack/all_in_one_seo_pack.php",
+			"title": "Check your SEO",
+			"icon": {
+				"file": "/assets/img/aioseo.png",
+				"width": 47,
+				"height": 40
+			},
+			"link": "admin.php?page=aioseo",
+			"button_text" : "Manage",
+			"button_style" : "button--outlined"
+		},
+		{
+			"plugin_name": "modern-events-calendar-lite/modern-events-calendar-lite.php",
+			"title": "Create & Edit Events",
+			"icon": {
+				"file": "/assets/img/modern-events-calendar-lite.png",
+				"width": 47,
+				"height": 40
+			},
+			"link": "admin.php?page=mec-intro",
+			"button_text" : "Manage",
+			"button_style" : "button--outlined"
+		}
+	]
+}

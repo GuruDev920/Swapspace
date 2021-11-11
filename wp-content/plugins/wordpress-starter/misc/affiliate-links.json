@@ -1,0 +1,72 @@
+{
+	"wpforms": {
+		"1" : "https://shareasale.com/r.cfm?b=834775&u=2131496&m=64312&urllink=wpforms%2Ecom%2Flite%2Dupgrade&afftrack=wpstarter",
+		"2" : "https://shareasale.com/r.cfm?b=834775&u=2167744&m=64312&urllink=wpforms%2Ecom%2Flite%2Dupgrade%2F&afftrack=wpstarter_wpforms_es",
+		"3" : "https://shareasale.com/r.cfm?b=834775&u=2165093&m=64312&urllink=wpforms%2Ecom%2Flite%2Dupgrade%2F&afftrack=wpstarter_wpforms_uk",
+		"4" : "https://shareasale.com/r.cfm?b=834775&u=2131496&m=64312&urllink=wpforms%2Ecom%2Flite%2Dupgrade&afftrack=wpstarter",
+		"5" : "https://shareasale.com/r.cfm?b=834775&u=2165093&m=64312&urllink=wpforms%2Ecom%2Flite%2Dupgrade%2F&afftrack=wpstarter_wpforms_uk"
+	},
+	"neve": {
+		"1" : "https://www.siteground.com/tracking/wpstarter_themeisle",
+		"2" : "https://www.siteground.com/tracking/wpstarter_themeisle_es",
+		"3" : "https://www.siteground.com/tracking/wpstarter_themeisle_uk",
+		"4" : "https://www.siteground.com/tracking/wpstarter_themeisle",
+		"5" : "https://www.siteground.com/tracking/wpstarter_themeisle_uk"
+	},
+	"jilt-for-woocommerce": {
+		"1" : "100",
+		"2" : "99",
+		"3" : "98",
+		"4" : "100",
+		"5" : "98"
+	},
+	"google-analytics-for-wordpress": {
+		"1" : "2131496",
+		"2" : "2167744",
+		"3" : "2165093",
+		"4" : "2131496",
+		"5" : "2165093"
+	},
+	"optinmonster": {
+		"1" : "https://www.siteground.com/tracking/wpstarter_optinmonster",
+		"2" : "https://www.siteground.com/tracking/wpstarter_optinmonster_es",
+		"3" : "https://www.siteground.com/tracking/wpstarter_optinmonster_uk",
+		"4" : "https://www.siteground.com/tracking/wpstarter_optinmonster",
+		"5" : "https://www.siteground.com/tracking/wpstarter_optinmonster_uk"
+	},
+	"envira-gallery-lite": {
+		"1" : "2131496",
+		"2" : "2167744",
+		"3" : "2165093",
+		"4" : "2131496",
+		"5" : "2165093"
+	},
+	"astra" : {
+		"1" : "https://www.siteground.com/tracking/wpstarter_wpastra_us",
+		"2" : "https://www.siteground.com/tracking/wpstarter_wpastra_es",
+		"3" : "https://www.siteground.com/tracking/wpstarter_wpastra_uk",
+		"4" : "https://www.siteground.com/tracking/wpstarter_wpastra_us",
+		"5" : "https://www.siteground.com/tracking/wpstarter_wpastra_uk"
+	},
+	"translatepress-multilingual": {
+		"1" : "144161",
+		"2" : "144163",
+		"3" : "144162",
+		"4" : "144161",
+		"5" : "144162"
+	},
+	"all-in-one-seo-pack": {
+		"1" : "https://shareasale.com/r.cfm?b=1491200&u=2131496&m=94778&urllink=&afftrack=",
+		"2" : "https://shareasale.com/r.cfm?b=1491200&u=2167744&m=94778&urllink=&afftrack=",
+		"3" : "https://shareasale.com/r.cfm?b=1491200&u=2165093&m=94778&urllink=&afftrack=",
+		"4" : "https://shareasale.com/r.cfm?b=1491200&u=2131496&m=94778&urllink=&afftrack=",
+		"5" : "https://shareasale.com/r.cfm?b=1491200&u=2165093&m=94778&urllink=&afftrack="
+	},
+	"modern-events-calendar-lite": {
+		"1" : "?ref=175",
+		"2" : "?ref=177",
+		"3" : "?ref=176",
+		"4" : "?ref=175",
+		"5" : "?ref=176"
+	}
+}
