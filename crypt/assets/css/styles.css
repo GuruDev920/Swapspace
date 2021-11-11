@@ -1,0 +1,377 @@
+* {
+  font-family: Roboto, "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+head {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  font-size: 2rem;
+}
+
+.slogan {
+  color: white;
+  font-size: 1.5rem;
+  margin: 5px;
+}
+
+.loader-cont {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  cursor: wait;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #e35760; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  background-color: transparent;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes preloader-background-data-v-1b70a5bd{
+  0%,33.2% {
+    background-color:#fdffa0
+  }
+  33.3%,66.5% {
+    background-color:#e35760
+  }
+  66.6%,to {
+    background-color:#fbff2d
+  }
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #251f27;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.form-cont {
+  margin: 40px;
+}
+
+.input-cont {
+  margin: 5px;
+  background-color: #ccc;
+  display: inline-block;
+}
+
+.input-cont-icon {
+  margin: 5px;
+  display: inline-flex;
+}
+
+input {
+  height: 60px;
+  width: 282px;
+  font-size: 1.25rem;
+  border: 0;
+  border-radius: 0;
+  border-right: 1px solid #ccc;
+}
+
+select {
+  height: 60px;
+  width: 230px;
+  font-size: 1rem;
+  border: none;
+  background: url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") right center no-repeat;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 2px 25px 2px 2px;
+  margin-right: 10px;
+}
+
+.exchange-icon {
+  margin: 10px;
+  height: 26px;
+  width: 25px;
+  background-color: transparent;
+  fill: #ddd;
+  cursor: pointer;
+}
+
+.exchange-icon:hover {
+  fill: #e35760;
+}
+
+.button-cont {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.button {
+  width: 230px;
+  height: 60px;
+  text-align: center;
+  background-color: #e35760;
+  border: none;
+  border-radius: 0;
+  color: white;
+  font-size: 1.125rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: white;
+  color: #e35760;
+}
+
+.select2-container--default .select2-selection--single {
+  background-color: transparent;
+  border: none;
+}
+
+.input-spinner {
+  z-index: 100;
+  display: inline-block;
+  border: 3px solid #004080;
+  border-right-color: rgb(0, 64, 128);
+  border-right-color: rgba(0,64,128,0) !important;
+  transform: translateZ(0);
+  -webkit-animation: spinner-data-v-68ebdfd7 1.25s cubic-bezier(.53,.21,.57,.85) infinite,colors-data-v-68ebdfd7 3s cubic-bezier(.45,-.03,1,.77) infinite;
+  animation: spinner-data-v-68ebdfd7 1.25s cubic-bezier(.53,.21,.57,.85) infinite,colors-data-v-68ebdfd7 3s cubic-bezier(.45,-.03,1,.77) infinite;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.header-loading {
+	z-index: 112;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background-color: #fdffa0;
+	-webkit-animation: preloader-background-data-v-1b70a5bd 5s linear infinite;
+	animation: preloader-background-data-v-1b70a5bd 5s linear infinite;
+}
+
+.second-input.loading {
+  background-color: #ddd;
+  background-image: url("https://ik.imagekit.io/AmanSin001/Rolling-1s-200px_gwxEeU3F4.gif");
+  background-size: 30px 30px;
+  background-position:left center;
+  background-repeat: no-repeat;
+}
+
+.offers {
+  width: 100%;
+  height: 99%;
+  margin: 0;
+  padding: 0;
+  background-color: #251f27;
+  display: flex;
+  overflow: scroll;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.offer-table {
+  border-collapse: collapse;
+}
+
+.offer-cont {
+  color: white;
+  width: 100%;
+  display: block;
+  padding: 20px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.offer-cont td {
+  margin: 20px;
+  display: inline-block;
+}
+
+.offer-cont:hover {
+  background: #51354f;
+}
+
+.receipient {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #251f27;
+  display: flex;
+  overflow: scroll;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.details {
+  display: block;
+  color: white;
+  background: #51354f;
+  width: 50%;
+  padding: 30px;
+}
+
+.detail-text {
+  width: 50%;
+  font-size: 1.25rem;
+}
+
+.detail-text.left {
+  float: left;
+}
+
+.detail-text.right {
+  float: right;
+  text-align: right;
+}
+
+.detail-text-br.right {
+  float: right;
+  text-align: right;
+}
+
+.detail-text-br {
+  width: 50%;
+  font-weight: 600;
+}
+
+.address {
+  margin-top: 20px;
+}
+
+textarea {
+  background: transparent;
+  border: 1px solid #ccc;
+  color: #e2e6e8;
+  padding: 1rem 1.5rem;
+}
+
+small {
+  font-size: 80%;
+  display: block;
+  margin-top: .25rem;
+  color: #b3b3b3;
+}
+
+.terms {
+  margin-top: 10px;
+}
+
+.transaction-detail {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #251f27;
+  display: flex;
+  overflow: scroll;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.about-cont {
+  margin-top: 10px;
+}
+
+.about-text {
+  font-size: 16px;
+}
+
+.about-focus {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.copyHandler {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#accept-offers:disabled, #accept-offers[disabled] {
+  background-color: #ccc;
+  color: black;
+  cursor: not-allowed;
+}
+
+.footer {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    padding: 25px;
+    color: white;
+    background: linear-gradient(104.98deg,#21bf73 1.87%,#0a6e5c 99.59%);
+}
+
+.footer .advert-cont {
+    width: 48%;
+    margin: 0;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.footer .button-cont {
+    width: 48%;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+}
+
+.footer .advert-text {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: inline-block;
+    width: 100%;
+}
+
+.ramp-button {
+    letter-spacing: 2px;
+    font-weight: 700;
+    background-color: #21bf73;
+    border: 2px solid transparent;
+    box-shadow: 0 8px 34px rgba(86,190,137,.39);
+    text-transform: uppercase;
+    padding: 13px 24px 13px 30px;
+    min-width: 226px;
+}
